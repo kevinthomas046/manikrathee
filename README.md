@@ -1,4 +1,5 @@
-Blog.manikrathee
-================
+Blog - Manik Rathee
+======
 
-My design &amp; dev blog
+http://blog.manikrathee.com
+Powered by Jekyll, Hosted on Media Temple
