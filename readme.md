@@ -3,4 +3,4 @@ Blog - Manik Rathee
 
 http://blog.manikrathee.com
 ----
-Powered by Jekyll, Hosted on Media Temple
+Built using environmentally friendly, reusable code. Powered by Jekyll, Github, MediaTemple & Love
