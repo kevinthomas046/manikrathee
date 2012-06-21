@@ -13,7 +13,7 @@
 	<meta name="keyword" content="design, development, front end, photography, user experience, ux, manik, rathee, manik rathee">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta property="og:title" content="blog.manikrathee.com - {{ page.title }}" />
-    <meta property="og:description" content="Manik Rathee is a User Experience Engineer, Designer, Developer and Photographer currently working to help reelect President Barack Obama" />
+    <meta property="og:description" content="Manik Rathee is a User Experience Engineer, Designer, Developer and Photographer currently working to help re-elect President Barack Obama" />
     <meta property="og:image" content="{{ feature_image }}" />
 	<link rel="shortcut icon" href="http://assets.manikrathee.com/blog/_global/favicon.ico">
 	<link rel="apple-touch-icon" href="http://assets.manikrathee.com/blog/_global/apple-touch-icon.png">
@@ -34,8 +34,8 @@
 <body {% if page.body_class %}class="{{ page.body_class }}"{% endif %}>
 	<div id="page-container" class="container">
 
+		<img src="{{ page.featured_image }}" alt="{{ page.title }}">
 		
-		{{ featured_image }}
 		{{ page.title }}
 		{{ content }}
 
@@ -44,7 +44,7 @@
 		{% include forms/default/checking_form.html %}
 
 
-		
+
 
 		
 
@@ -60,8 +60,12 @@
 			</article>
 		</section>
 
-		add a footer with "built using environentall friendly code. or recylced or resuable"
-		jekyll, github & love
+
+		<footer>
+			<div class="row">
+				<p>Built using environmentally friendly, reusable code. Powered by Jekyll, Github, & Love.</p>
+			</div>
+		</footer>
 
 
 		
