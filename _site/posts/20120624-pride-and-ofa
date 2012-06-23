@@ -38,6 +38,9 @@
 		#body:hover a:hover, footer:hover a:hover{
 			color: #333;
 		}
+		#post-title{
+			font-size: 60px;
+		}
 	</style>
 
 </head>
