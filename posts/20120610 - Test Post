@@ -18,9 +18,10 @@ featured-image-x: http://assets.manikrathee.com/blog/20120610/images/feature-x.j
 #featured-alt:
 
 
-#link-color: 
-#link-color-hover:
-#add hex with #, #ffffff - MUST FILL BOTH REG AND HOVER
+link-color: 86c64c
+
+link-color-hover: 333
+#add hex WITHOUT #, #ffffff - MUST FILL BOTH REG AND HOVER
 
 #og_title:
 

@@ -26,22 +26,22 @@
     <!-- For third-generation iPad with high-resolution Retina display: -->
     <link rel="apple-touch-icon" sizes="144x144" href="http://assets.manikrathee.com/blog/_global/apple-touch-icon-144x144.png">
 	<link rel="stylesheet" href="http://assets.manikrathee.com/blog/_global/css/style.css" type="text/css" media="screen" />
-	{% if page.stylesheet %}
-		<link rel="stylesheet" href="{{ page.stylesheet }}" type="text/css" media="screen" />
-	{% endif %}
+{% if page.stylesheet %}
+	<link rel="stylesheet" href="{{ page.stylesheet }}" type="text/css" media="screen" />
+{% endif %}
     <script src="{{ site.base_dir }}/js/libs/modernizr-2.5.3.min.js"></script>
     <script type="text/javascript" src="http://use.typekit.com/aer2pvt.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	{% if page.link-color %}
-		<style>
-			#body a{
-				color: {{ page.link-color }};
-			}
-			#body a:hover{
-				color: {{ page.link-color-hover }};
-			}
-		</style>
-	{% endif %}
+{% if page.link-color %}
+	<style type="text/css">
+		#body:hover a{
+			color: #{{ page.link-color }};
+		}
+		#body:hover a:hover{
+			color: #{{ page.link-color-hover }};
+		}
+	</style>
+{% endif %}
 </head>
 <body {% if page.body-class %}class="{{ page.body-class }}"{% endif %}>
 	<header id="page-header">
