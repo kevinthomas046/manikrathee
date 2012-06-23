@@ -26,18 +26,40 @@
     <!-- For third-generation iPad with high-resolution Retina display: -->
     <link rel="apple-touch-icon" sizes="144x144" href="http://assets.manikrathee.com/blog/_global/apple-touch-icon-144x144.png">
 	<link rel="stylesheet" href="http://assets.manikrathee.com/blog/_global/css/style.css" type="text/css" media="screen" />
-	<link rel="stylesheet" href="http://assets.manikrathee.com/blog/20120610/css/20120610.css" type="text/css" media="screen" />
+	
     <script src="/js/libs/modernizr-2.5.3.min.js"></script>
     <script type="text/javascript" src="http://use.typekit.com/aer2pvt.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body >
-	<div id="page-container" class="container">
+	<header id="page-header">
+		<section class="container">
+			<a href="http://blog.manikrathee.com" title="blog.manikrathee.com">
+				<h1 id="logo">Blog.Manikrathee.com</h1>
+			</a>
 
-		<img src="http://assets.manikrathee.com/blog/20120610/images/feature.jpg" alt="Post Title Of The Post And The Title">
+			<h1 id="title">Manik Rathee</h1>
+			<h2>
+				<a href="http://www.dribbble.com/manikrathee" target="_blank" title="Dribbble: Manik Rathee">Designer, </a> 
+				<a href="http://www.manikrathee.com" target="_blank" title="Manik Rathee's Portfolio">Developer, </a>
+				<a href="http://www.manikratheephotography.com" target="_blank" title="Manik Rathee Photography">Photographer</a>
+			</h2>
+		</section>
+	</header>
+	<article class="container">
+		<header>
+			<img id="feature" src="http://assets.manikrathee.com/blog/20120610/images/feature.jpg" alt="Post Title Of The Post And The Title">
+			
+				<img id="title-logo" src="http://manikrathee.com/images/home/logo.png" alt="Post Title Of The Post And The Title">	
+			
+			<h3 id="title">Post Title Of The Post And The Title</h3>
+		</header>
+
+		<section id="body">
+			Add conditional to decide whether to show title-beefore (for logos) and add padding)
+		other option, centered logo with ir - new varaible
 		
-		Post Title Of The Post And The Title
-		<h1>subtitle</h1>
+			<h1>subtitle</h1>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
@@ -48,7 +70,7 @@
 <h1>subtitle</h1>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+		</section>
 
 
 		Liquid error: No such file or directory - /Users/mrathee/Dropbox/#Symlink/Blog - Manik Rathee/_includes
@@ -57,18 +79,6 @@
 
 
 		
-
-
-
-
-		<section class="row">
-			<header>
-				<h1>Page Header</h1>
-			</header>
-			<article>
-				<p>Cras sed ante. Phasellus in massa. Curabitur dolor eros, gravida et, hendrerit ac, cursus non, massa. Aliquam lorem. In hac habitasse platea dictumst. Cras eu mauris. Quisque lacus. Donec ipsum. Nullam vitae sem at nunc pharetra ultricies. Vivamus elit eros, ullamcorper a, adipiscing sit amet, porttitor ut, nibh. Maecenas adipiscing mollis massa. Nunc ut dui eget nulla venenatis aliquet. Sed luctus posuere justo. Cras vehicula varius turpis. Vivamus eros metus, tristique sit amet, molestie dignissim, malesuada et, urna.</p>
-			</article>
-		</section>
 
 
 		<footer>
@@ -81,9 +91,6 @@
 		
 
 
-	</div>
-
-
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 	<script>!window.jQuery && document.write(unescape('%3Cscript src="http://assets.manikrathee.com/blog/_global/js/libs/jquery-1.7.1.min.js"%3E%3C/script%3E'))</script>
@@ -93,8 +100,6 @@
 	<script src="http://assets.manikrathee.com/blog/_global/js/libs/dd_belatedpng.js"></script>
 	<script> DD_belatedPNG.fix('img, .png_bg');</script>
 	<![endif]-->
-	
-		<script type="text/javascript" src="http://assets.manikrathee.com/blog/20120610/js/20120610.js"></script>
 	
 	<script type="text/javascript">
 	  var _gaq = _gaq || [];

@@ -4,21 +4,23 @@ layout: default
 
 title: Post Title Of The Post And The Title
 
+title-before: http://manikrathee.com/images/home/logo.png
+
 description:
 
-featured_image: http://assets.manikrathee.com/blog/20120610/images/feature.jpg
+featured-image: http://assets.manikrathee.com/blog/20120610/images/feature.jpg
 
 #og_title:
 
-#og_description:
+#og-description:
 
-#og_image: 
+#og-image: 
 
-#body_class:
+#body-class:
 
-stylesheet: http://assets.manikrathee.com/blog/20120610/css/20120610.css
+#stylesheet: http://assets.manikrathee.com/blog/20120610/css/20120610.css
 
-script: http://assets.manikrathee.com/blog/20120610/js/20120610.js
+#script: http://assets.manikrathee.com/blog/20120610/js/20120610.js
 
 ---
 					

@@ -26,19 +26,43 @@
     <!-- For third-generation iPad with high-resolution Retina display: -->
     <link rel="apple-touch-icon" sizes="144x144" href="http://assets.manikrathee.com/blog/_global/apple-touch-icon-144x144.png">
 	<link rel="stylesheet" href="http://assets.manikrathee.com/blog/_global/css/style.css" type="text/css" media="screen" />
-	<link rel="stylesheet" href="{% if page.stylesheet %}{{ page.stylesheet }}{% endif %}" type="text/css" media="screen" />
+	{% if page.stylesheet %}
+		<link rel="stylesheet" href="{{ page.stylesheet }}" type="text/css" media="screen" />
+	{% endif %}
     <script src="{{ site.base_dir }}/js/libs/modernizr-2.5.3.min.js"></script>
     <script type="text/javascript" src="http://use.typekit.com/aer2pvt.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
-<body {% if page.body_class %}class="{{ page.body_class }}"{% endif %}>
-	<div id="page-container" class="container">
+<body {% if page.body-class %}class="{{ page.body-class }}"{% endif %}>
+	<header id="page-header">
+		<section class="container">
+			<a href="http://blog.manikrathee.com" title="blog.manikrathee.com">
+				<h1 id="logo">Blog.Manikrathee.com</h1>
+			</a>
 
-		<img src="{{ page.featured_image }}" alt="{{ page.title }}">
+			<h1 id="title">Manik Rathee</h1>
+			<h2>
+				<a href="http://www.dribbble.com/manikrathee" target="_blank" title="Dribbble: Manik Rathee">Designer, </a> 
+				<a href="http://www.manikrathee.com" target="_blank" title="Manik Rathee's Portfolio">Developer, </a>
+				<a href="http://www.manikratheephotography.com" target="_blank" title="Manik Rathee Photography">Photographer</a>
+			</h2>
+		</section>
+	</header>
+	<article class="container">
+		<header>
+			<img id="feature" src="{{ page.featured-image }}" alt="{{ page.title }}">
+			{% if page.title-before %}
+				<img id="title-logo" src="{{ page.title-before }}" alt="{{ page.title }}">	
+			{% endif %}
+			<h3 id="title">{{ page.title }}</h3>
+		</header>
+
+		<section id="body">
+			Add conditional to decide whether to show title-beefore (for logos) and add padding)
+		other option, centered logo with ir - new varaible
 		
-		{{ page.title }}
-		{{ content }}
-
+			{{ content }}
+		</section>
 
 
 		{% include forms/default/checking_form.html %}
@@ -49,18 +73,6 @@
 		
 
 
-
-
-		<section class="row">
-			<header>
-				<h1>Page Header</h1>
-			</header>
-			<article>
-				<p>Cras sed ante. Phasellus in massa. Curabitur dolor eros, gravida et, hendrerit ac, cursus non, massa. Aliquam lorem. In hac habitasse platea dictumst. Cras eu mauris. Quisque lacus. Donec ipsum. Nullam vitae sem at nunc pharetra ultricies. Vivamus elit eros, ullamcorper a, adipiscing sit amet, porttitor ut, nibh. Maecenas adipiscing mollis massa. Nunc ut dui eget nulla venenatis aliquet. Sed luctus posuere justo. Cras vehicula varius turpis. Vivamus eros metus, tristique sit amet, molestie dignissim, malesuada et, urna.</p>
-			</article>
-		</section>
-
-
 		<footer>
 			<div class="row">
 				<p>Built using environmentally friendly, reusable code. Powered by Jekyll, Github, & Love.</p>
@@ -69,9 +81,6 @@
 
 
 		
-
-
-	</div>
 
 
 
