@@ -59,10 +59,9 @@
 		</section>
 	</header>
 	<article>
+
 		<header>
-			<!-- <img id="feature" src="{{ page.featured-image }}" alt="{{ page.title }}"> -->
-
-
+			<!-- Data attr setup for Scott Jehl's Picturefill / https://github.com/scottjehl/picturefill/ -->
 			<div id="feature" data-picture data-alt="{% if page.featured-alt %}{{ page.featured-alt }}{else}blog- manikrathee{% endif %}">
 		        <div data-src="{{ page.featured-image-s }}"></div>
 		        <div data-src="{{ page.featured-image-m }}" data-media="(min-width: 400px)"></div>
@@ -72,13 +71,6 @@
 		        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
 		        <noscript><img src="{{ page.featured-image-s }}" alt="{% if page.featured-alt %}{{ page.featured-alt }}{else}blog- manikrathee{% endif %}"></noscript>
 		    </div>
-
-
-
-
-
-
-
 
 			<div id="post-title-container">
 				{% if page.title-before %}
@@ -91,11 +83,15 @@
 		<section id="body">
 			{{ content }}
 		</section>
+
 	</article>
 
 	<footer>
+
 		<div class="container">
+
 			<p>Built using environmentally friendly, reusable code. Powered by <a href="https://github.com/mojombo/jekyll" title="Jekyll">Jekyll</a>, <a href="https://github.com/" title="Github">Github</a>, & <a href="http://www.aileenandmanik.com" title="Love">Love</a>.</p>
+			
 		</div>
 			
 

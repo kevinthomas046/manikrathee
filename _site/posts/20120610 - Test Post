@@ -57,10 +57,9 @@
 		</section>
 	</header>
 	<article>
+
 		<header>
-			<!-- <img id="feature" src="" alt="Post Title Of The Post And The Title"> -->
-
-
+			<!-- Data attr setup for Scott Jehl's Picturefill / https://github.com/scottjehl/picturefill/ -->
 			<div id="feature" data-picture data-alt="">
 		        <div data-src="http://assets.manikrathee.com/blog/20120610/images/feature-s.jpg"></div>
 		        <div data-src="http://assets.manikrathee.com/blog/20120610/images/feature-m.jpg" data-media="(min-width: 400px)"></div>
@@ -70,13 +69,6 @@
 		        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
 		        <noscript><img src="http://assets.manikrathee.com/blog/20120610/images/feature-s.jpg" alt=""></noscript>
 		    </div>
-
-
-
-
-
-
-
 
 			<div id="post-title-container">
 				
@@ -106,11 +98,15 @@
 
 
 		</section>
+
 	</article>
 
 	<footer>
+
 		<div class="container">
+
 			<p>Built using environmentally friendly, reusable code. Powered by <a href="https://github.com/mojombo/jekyll" title="Jekyll">Jekyll</a>, <a href="https://github.com/" title="Github">Github</a>, & <a href="http://www.aileenandmanik.com" title="Love">Love</a>.</p>
+			
 		</div>
 			
 
