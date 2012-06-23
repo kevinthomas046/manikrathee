@@ -30,6 +30,7 @@
     <script src="/js/libs/modernizr-2.5.3.min.js"></script>
     <script type="text/javascript" src="http://use.typekit.com/aer2pvt.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	
 </head>
 <body >
 	<header id="page-header">
@@ -49,9 +50,6 @@
 	<article>
 		<header>
 			<!-- <img id="feature" src="http://assets.manikrathee.com/blog/20120610/images/feature.jpg" alt="Post Title Of The Post And The Title"> -->
-
-
-
 
 
 			<div id="feature" data-picture data-alt="">

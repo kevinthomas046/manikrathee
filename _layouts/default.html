@@ -32,6 +32,16 @@
     <script src="{{ site.base_dir }}/js/libs/modernizr-2.5.3.min.js"></script>
     <script type="text/javascript" src="http://use.typekit.com/aer2pvt.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	{% if page.link-color %}
+		<style>
+			#body a{
+				color: {{ page.link-color }};
+			}
+			#body a:hover{
+				color: {{ page.link-color-hover }};
+			}
+		</style>
+	{% endif %}
 </head>
 <body {% if page.body-class %}class="{{ page.body-class }}"{% endif %}>
 	<header id="page-header">
@@ -51,9 +61,6 @@
 	<article>
 		<header>
 			<!-- <img id="feature" src="{{ page.featured-image }}" alt="{{ page.title }}"> -->
-
-
-
 
 
 			<div id="feature" data-picture data-alt="{% if page.featured-alt %}{{ page.featured-alt }}{else}blog- manikrathee{% endif %}">
