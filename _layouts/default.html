@@ -51,7 +51,7 @@
 	<article>
 		<header>
 			<img id="feature" src="{{ page.featured-image }}" alt="{{ page.title }}">
-			<div id="post-title-container" class="container">
+			<div id="post-title-container">
 				{% if page.title-before %}
 					<img id="post-title-logo" src="{{ page.title-before }}" alt="{{ page.title }}">	
 				{% endif %}
@@ -69,6 +69,30 @@
 
 			Add conditional to decide whether to show title-beefore (for logos) and add padding)
 		other option, centered logo with ir - new varaible
+
+		{% if paginator.previous_page %}
+	      {% if paginator.previous_page == 1 %}
+	     	 <a href="/" title="Previous Page">&laquo; Previous</a>
+	      {% else %}
+	      	<a href="/page{{ paginator.previous_page }}/" title="Previous Page">&laquo; Previous</a>
+	      {% endif %}
+	    {% endif %}
+	    
+	    {% if paginator.next_page %} 
+	    	<a href="/page{{ paginator.next_page }}/" title="Next Page">Next &raquo;</a>
+	    {% endif %} 
+
+
+
+	    {% for post in site.posts %}
+		<div class="post_nav_item animate fadeInRight clearfix">
+			<a href="{{ post.url }}">
+				<p class="date">{{ post.date | date: "%B %e, %Y" }}</p>
+				<p class="title"> {{ post.title }}</p>
+			</a>
+		</div>
+	{% endfor %}
+
 	</footer>
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
