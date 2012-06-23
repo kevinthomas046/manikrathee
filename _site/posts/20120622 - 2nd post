@@ -48,7 +48,29 @@
 	</header>
 	<article>
 		<header>
-			<img id="feature" src="http://assets.manikrathee.com/blog/20120610/images/feature.jpg" alt="Post Title Of The Post And The Title">
+			<!-- <img id="feature" src="http://assets.manikrathee.com/blog/20120610/images/feature.jpg" alt="Post Title Of The Post And The Title"> -->
+
+
+
+
+
+			<div id="feature" data-picture data-alt="">
+		        <div data-src=""></div>
+		        <div data-src="" data-media="(min-width: 400px)"></div>
+		        <div data-src="" data-media="(min-width: 800px)"></div>
+		        <div data-src="" data-media="(min-width: 1000px)"></div>
+
+		        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+		        <noscript><img src="" alt=""></noscript>
+		    </div>
+
+
+
+
+
+
+
+
 			<div id="post-title-container">
 				
 				<h3 id="post-title">Post Title Of The Post And The Title</h3>
@@ -112,8 +134,7 @@
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 	<script>!window.jQuery && document.write(unescape('%3Cscript src="http://assets.manikrathee.com/blog/_global/js/libs/jquery-1.7.1.min.js"%3E%3C/script%3E'))</script>
-	<script src="http://assets.manikrathee.com/blog/_global/js/libs/plugins.js"></script>
-	<script type="text/javascript" src="http://assets.manikrathee.com/blog/_global/js/libs/css3-mediaqueries.js"></script>
+	<script src="http://assets.manikrathee.com/blog/_global/js/libs/picturefill.js"></script>
 	<!--[if lt IE 7 ]>
 	<script src="http://assets.manikrathee.com/blog/_global/js/libs/dd_belatedpng.js"></script>
 	<script> DD_belatedPNG.fix('img, .png_bg');</script>

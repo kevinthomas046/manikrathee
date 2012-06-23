@@ -4,3 +4,5 @@ server:      false
 owner-name:     "Manik Rathee"
 owner-page:     "http://www.manikrathee.com/"
 paginate: 10
+permalink: pretty
+exclude: [templates]
