@@ -48,41 +48,28 @@
 			</h2>
 		</section>
 	</header>
-	<article class="container">
+	<article>
 		<header>
 			<img id="feature" src="{{ page.featured-image }}" alt="{{ page.title }}">
-			{% if page.title-before %}
-				<img id="title-logo" src="{{ page.title-before }}" alt="{{ page.title }}">	
-			{% endif %}
-			<h3 id="title">{{ page.title }}</h3>
+			<div id="post-title-container" class="container">
+				{% if page.title-before %}
+					<img id="post-title-logo" src="{{ page.title-before }}" alt="{{ page.title }}">	
+				{% endif %}
+				<h3 id="post-title">{{ page.title }}</h3>
+			</div>
 		</header>
 
 		<section id="body">
-			Add conditional to decide whether to show title-beefore (for logos) and add padding)
-		other option, centered logo with ir - new varaible
-		
 			{{ content }}
 		</section>
+	</article>
 
+	<footer>
+			<p>Built using environmentally friendly, reusable code. Powered by Jekyll, Github, & Love.</p>
 
-		{% include forms/default/checking_form.html %}
-
-
-
-
-		
-
-
-		<footer>
-			<div class="row">
-				<p>Built using environmentally friendly, reusable code. Powered by Jekyll, Github, & Love.</p>
-			</div>
-		</footer>
-
-
-		
-
-
+			Add conditional to decide whether to show title-beefore (for logos) and add padding)
+		other option, centered logo with ir - new varaible
+	</footer>
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 	<script>!window.jQuery && document.write(unescape('%3Cscript src="http://assets.manikrathee.com/blog/_global/js/libs/jquery-1.7.1.min.js"%3E%3C/script%3E'))</script>
