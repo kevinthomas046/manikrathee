@@ -32,10 +32,10 @@
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 	<style type="text/css">
-		#body:hover a{
+		#body:hover a, #footer:hover a{
 			color: #86c64c;
 		}
-		#body:hover a:hover{
+		#body:hover a:hover, #footer:hover a:hover{
 			color: #333;
 		}
 	</style>
