@@ -2,7 +2,9 @@
 
 layout: default
 
-title: Post Title Of The Post And The Title
+title: Title
+subtitle: Other Stuff
+date: June 24, 2012
 
 #title-before: 
 
@@ -17,6 +19,7 @@ featured-image-x: http://assets.manikrathee.com/blog/20120610/images/feature-x.j
 
 #featured-alt:
 
+title-size: 80px
 
 link-color: 86c64c
 
@@ -31,9 +34,9 @@ link-color-hover: 333
 
 #body-class:
 
-#stylesheet: http://assets.manikrathee.com/blog/20120610/css/20120610.css
+#stylesheet: 
 
-#script: http://assets.manikrathee.com/blog/20120610/js/20120610.js
+#script: 
 
 ---
 					
