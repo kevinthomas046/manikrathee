@@ -33,7 +33,7 @@
 
 	<style type="text/css">
 		#body:hover a, footer:hover a{
-			color: #a9484e;
+			color: #e9498d;
 		}
 		#body:hover a:hover, footer:hover a:hover{
 			color: #8c131b;
