@@ -47,7 +47,7 @@ lazyload: 1
 
 <p><i>Almost a million people.</i> A parade to bring people together and support one another. There are not many times that someone could be brought to the verge of tears because they've experienced one of the most amazing things in humanity: unencumbered love and acceptance. This was one of those times.</p>
 
-<ul class="loader">
+<ul id="loader">
 	<li><img class="load" data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_01.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
 	<li><img class="load" data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_02.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
 	<li><img class="load" data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_03.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
