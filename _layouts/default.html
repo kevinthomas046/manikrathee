@@ -113,11 +113,13 @@
 	{% endif %}
 	{% if page.lazyload %}
 		<script type="text/javascript" src="http://assets.manikrathee.com/blog/_global/js/lazyload.js"></script>
-		<script>
-			$(".loader li img").lazyload({ 
-				threshold : 200 
-				effect : "fadeIn"
-			});
+		<script type="text/javascript">
+			(function($, win, doc) {
+				$('.load').lazyload({  
+					effect : "fadeIn",
+					threshold : 50
+				});
+			})(jQuery, window, document);
 		</script>
 	{% endif %}
 
