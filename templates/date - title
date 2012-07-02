@@ -24,7 +24,7 @@ title-size: 80px
 link-color: e9498d
 
 link-color-hover: 8c131b
-#add hex WITHOUT #, #ffffff - MUST FILL BOTH REG AND HOVER
+#add hex WITHOUT #, #ffffff - Must fill both regular link-color and hover
 
 #body-class:
 
