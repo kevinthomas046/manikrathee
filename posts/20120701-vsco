@@ -8,7 +8,7 @@ date: July 2, 2012
 
 #title-before: 
 
-description:
+#description:
 
 featured-image-s: http://assets.manikrathee.com/blog/20120624/images/feature-s.jpg
 featured-image-m: http://assets.manikrathee.com/blog/20120624/images/feature-m.jpg
@@ -34,6 +34,9 @@ link-color-hover: 8c131b
 
 lazyload: 1
 
+fittext: 1
+
+lettering: 1
 ---
 					
 
@@ -43,36 +46,6 @@ lazyload: 1
 
 <ul id="loader">
 	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_01.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_02.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_03.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_04.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_05.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_06.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_07.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_08.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_09.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_10.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_11.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_12.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_13.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_14.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_15.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_16.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_17.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_18.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_19.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_20.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_21.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_22.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_23.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_24.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_25.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_26.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_27.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_28.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_29.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_31.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
-	<li><img data-original="http://assets.manikrathee.com/blog/20120624/images/manikrathee_pride_30.jpg" src="http://assets.manikrathee.com/blog/20120624/images/holder.jpg" alt="PRIDE - Chicago, Manik Rathee photography"></li>
 </ul>
 
 <p>"Whoever you are … we don't love you in spite of that," he yelled. "We love you because of that." - <a href="http://www.chicagotribune.com/entertainment/events/ct-met-gay-pride-parade-20120625,0,7616079.story" title="Quote by David Weasly">Pastor David Weasley</a></p>
