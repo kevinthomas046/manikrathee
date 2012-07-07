@@ -144,10 +144,14 @@
 	</article>
 
 	<footer>
+		
+
+		
+
 
 		<div class="container">
 
-			<p>Built using environmentally friendly, reusable code. Powered by <a href="https://github.com/mojombo/jekyll" title="Jekyll">Jekyll</a>, <a href="https://github.com/" title="Github">Github</a>, & <a href="http://www.aileenandmanik.com" title="Love">Love</a>.</p>
+			<p>Built using environmentally friendly, reusable code. Powered by <a href="https://github.com/mojombo/jekyll" title="Jekyll">Jekyll</a>, <a href="https://github.com/" title="Github">Github</a>, &amp; <a href="http://www.aileenandmanik.com" title="Love">Love</a>.</p>
 
 		</div>
 

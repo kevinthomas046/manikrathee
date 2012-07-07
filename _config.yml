@@ -1,8 +1,8 @@
-safe:        false
-auto:        false
-server:      false
-owner-name:     "Manik Rathee"
-owner-page:     "http://www.manikrathee.com/"
-paginate: 10
-permalink: pretty
+safe: false
+auto: false
+server: false
 exclude: [templates]
+lsi: true
+paginate: 10
+pygments: true
+permalink: /:year/:month/:title
