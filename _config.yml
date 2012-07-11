@@ -1,8 +1,6 @@
 safe: false
 auto: false
 server: false
-exclude: [templates]
 lsi: true
-paginate: 10
 pygments: true
-permalink: /:year/:month/:title
+permalink: /:year/:month/:day/:title 
