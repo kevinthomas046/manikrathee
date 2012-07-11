@@ -4,9 +4,7 @@ title: index
 ---
 {% for post in site.posts %}
 	<a class="post" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-		<div class="info">
-			<p class="date">{{ post.date | date: "%B %d %Y" }}</p>
-			<p class="subtitle">{{ post.subtitle }}</p>
-		</div>
+		<p class="info date">{{ post.date | date: "%B %d %Y" }}</p>
+		<p class="info subtitle">{{ page.subtitle }}</p>
 	</a>
 {% endfor %}
