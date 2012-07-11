@@ -3,4 +3,4 @@ auto: false
 server: false
 lsi: true
 pygments: true
-permalink: /:year/:month/:day/:title 
+permalink: /posts/:year/:month-:day/:title.html
