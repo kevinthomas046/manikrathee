@@ -4,7 +4,7 @@ title: index
 ---
 {% for post in site.posts %}
 	<div class="post">
-		<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		<a class="post-title" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 		<div class="info">
 			<p class="date">{{ post.date }}</p>
 			<p class="subtitle">{{ post.subtitle }}</p>
