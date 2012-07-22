@@ -2,9 +2,23 @@
 layout: root
 title: index
 ---
+
+<style>
+	
 {% for post in site.posts %}
-	<a class="post" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}
+#{{ post.slug }}:hover{
+		color: #{{ post.link-color }};
+}
+
+{% endfor %}  
+
+</style>
+
+
+{% for post in site.posts %}
+	<a id="{{ post.slug }}" class="post" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}
 		<p class="info date">{{ post.date | date: "%B %d %Y" }}</p>
-		<p class="info subtitle">{{ subtitle }}</p>
+		<p class="info subtitle">{{ post.subtitle }}</p>
+
 	</a>
 {% endfor %}  
