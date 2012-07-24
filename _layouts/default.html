@@ -81,7 +81,7 @@
 				{% endif %}
 				<h3 id="post-title">{{ page.title }}</h3>
 				<p id="subtitle">{{ page.subtitle }}</p>
-				<p id="date">{{ page.date }}</p>
+				<p id="date">{{ page.date | date: "%B %d %Y" }}</p>
 			</div>
 		</header>
 
