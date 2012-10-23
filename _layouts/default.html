@@ -51,6 +51,11 @@
 
 		<section id="body">
 			{{ content }}
+			{% if page.comments %}
+			<div id="disqus_thread"></div>
+			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><!-- 
+			<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a> -->
+			{% endif %}
 		</section>
 
 	</article>
@@ -84,6 +89,7 @@
 	{% if page.fittext %}<script src="http://assets.manikrathee.com/global/js/fittext.js"></script>{% endif %}
 	{% if page.script %}<script type="text/javascript" src="{{ page.script }}"></script>{% endif %}
 	{% if page.lazyload %}<script type="text/javascript" src="http://assets.manikrathee.com/global/js/lazyload.js"></script>{% endif %}
+	{% if page.comments %}{% include comments.html %}{% endif %}
 	<script type="text/javascript">
 		{% if page.lazyload %}
 			(function($, win, doc) {
