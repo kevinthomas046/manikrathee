@@ -48,8 +48,14 @@
 				<p id="date">{{ page.date | date: "%B %d %Y" }}</p>
 			</div>
 		</header>
+		
+		{% if page.intro %}
+		<section class="body intro">
+			{{ page.intro }}
+		</section>
+		{% endif %}
 
-		<section id="body">
+		<section class="body">
 			{{ content }}
 			{% if page.comments %}
 			<div id="disqus_thread"></div>
