@@ -92,6 +92,7 @@
 	},
 	"file_history":
 	[
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2012-07-01-vsco.html",
 		"/opt/fluence/fluenceapp/website/templates/guestlist.html",
 		"/opt/fluence/fluenceapp/website/templates/base/intro-tutorial.html",
 		"/opt/fluence/fluenceapp/website/templates/submission.html",
@@ -218,8 +219,7 @@
 		"/Users/manikrathee/Drive/#Fluence/Alpha/App/htdocs/website/templates/profile.html",
 		"/Users/manikrathee/Drive/#Fluence/Alpha/App/htdocs/website/templates/onboard.html",
 		"/Users/manikrathee/Drive/#Fluence/Alpha/App/htdocs/website/templates/home.html",
-		"/Users/manikrathee/Drive/#Fluence/Alpha/App/htdocs/static/js/script-ck.js",
-		"/Users/manikrathee/Drive/#Fluence/Alpha/App/htdocs/static/js/script.js"
+		"/Users/manikrathee/Drive/#Fluence/Alpha/App/htdocs/static/js/script-ck.js"
 	],
 	"find":
 	{
@@ -482,6 +482,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"vsco",
+				"#Blog/_posts/2012-07-01-vsco.html"
+			],
 			[
 				"medium",
 				"fluenceapp/static/css/styles/medium-screen.scss"
