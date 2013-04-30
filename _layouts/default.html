@@ -45,7 +45,7 @@
 				{% endif %}
 				<h3 id="post-title">{{ page.title }}</h3>
 				<p id="subtitle">{{ page.subtitle }}</p>
-				<p id="date">{{ page.date | date: "%B %d %Y" }}</p>
+				<!-- <p id="date">{{ page.date | date: "%B %d %Y" }}</p> -->
 			</div>
 		</header>
 		
@@ -57,6 +57,7 @@
 
 		<section class="body">
 			{{ content }}
+			
 			<!-- Jekyll Reading Time via Andy Taylor // http://andytaylor.me/2013/04/07/reading-time/ -->
 			{{ page.content | number_of_words | append: '.0' | divided_by:180 | append: 'min' }}
 		</section>
@@ -74,7 +75,7 @@
 			        <div class="left"> 
 			        {% if page.previous.url %} 
 			                <a href="{{page.previous.url}}" title="Previous Post: 
-			{{page.previous.title}}">&laquo; {{page.previous.title}}{{page.previous.subtitle}}</a> 
+			{{page.previous.title}}">&laquo; {{page.previous.title}}{{page.previous.subtitle}}{{ page.date | date: "%B %d %Y" }}</a> 
 			        {% endif %} 
 			        </div> 
 
@@ -92,6 +93,7 @@
 		{% if page.share %}
 		{% include share.html %}
 		{% endif %}
+		<p><em>Set in <a href="" title="">chaparral</a> and <a href="" title="">ff meta</a>.</em></p>
 		<div class="container">
 			<a href="https://github.com/" class="ss-icon ss-social-circle" title="Github">Github</a>
 		</div>
