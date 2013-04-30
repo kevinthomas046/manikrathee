@@ -1,8 +1,8 @@
-{% include header.html %}
-{% if page.stylesheet %}
+	{% include header.html %}
+	{% if page.stylesheet %}
 	<link rel="stylesheet" href="{{ page.stylesheet }}" type="text/css" media="screen" />
-{% endif %}
-{% if page.link-color %}
+	{% endif %}
+	{% if page.link-color %}
 	<style type="text/css">
 		#body:hover a, .body:hover a, footer:hover a{
 			color: #{{ page.link-color }};
@@ -14,7 +14,7 @@
 			font-size: {{ page.title-size }};
 		}
 	</style>
-{% endif %}
+	{% endif %}
 </head>
 <body {% if page.body-class %}class="{{ page.body-class }}"{% endif %}>
 	<header id="page-header">
@@ -27,42 +27,42 @@
 	</header>
 	<article>
 
-		<header>
-			<!-- Data attr setup for Scott Jehl's Picturefill / https://github.com/scottjehl/picturefill/ -->
-			<div id="feature" data-picture data-alt="{% if page.featured-alt %}{{ page.featured-alt }}{else}blog- manikrathee{% endif %}">
-		        <div data-src="{{ page.featured-image-s }}"></div>
-		        <div data-src="{{ page.featured-image-m }}" data-media="(min-width: 400px)"></div>
-		        <div data-src="{{ page.featured-image-l }}" data-media="(min-width: 800px)"></div>
-		        <div data-src="{{ page.featured-image-x }}" data-media="(min-width: 1000px)"></div>
+	<header>
+		<!-- Data attr setup for Scott Jehl's Picturefill / https://github.com/scottjehl/picturefill/ -->
+		<div id="feature" data-picture data-alt="{% if page.featured-alt %}{{ page.featured-alt }}{else}blog- manikrathee{% endif %}">
+      <div data-src="{{ page.featured-image-s }}"></div>
+      <div data-src="{{ page.featured-image-m }}" data-media="(min-width: 400px)"></div>
+      <div data-src="{{ page.featured-image-l }}" data-media="(min-width: 800px)"></div>
+      <div data-src="{{ page.featured-image-x }}" data-media="(min-width: 1000px)"></div>
 
-		        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-		        <noscript><img src="{{ page.featured-image-s }}" alt="{% if page.featured-alt %}{{ page.featured-alt }}{else}blog- manikrathee{% endif %}"></noscript>
-		    </div>
+      <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+      <noscript><img src="{{ page.featured-image-s }}" alt="{% if page.featured-alt %}{{ page.featured-alt }}{else}blog- manikrathee{% endif %}"></noscript>
+    </div>
 
-			<div id="post-title-container">
-				{% if page.title-before %}
-					<img id="post-title-logo" src="{{ page.title-before }}" alt="{{ page.title }}">	
-				{% endif %}
-				<h3 id="post-title">{{ page.title }}</h3>
-				<p id="subtitle">{{ page.subtitle }}</p>
-				<p id="date">{{ page.date | date: "%B %d %Y" }}</p>
-			</div>
-		</header>
-		
-		{% if page.intro %}
-		<section class="body intro">
-			<p>{{ page.intro }}</p>
-		</section>
-		{% endif %}
-
-		<section class="body">
-			{{ content }}
-			{% if page.comments %}
-			<div id="disqus_thread"></div>
-			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><!-- 
-			<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a> -->
+		<div id="post-title-container">
+			{% if page.title-before %}
+			<img id="post-title-logo" src="{{ page.title-before }}" alt="{{ page.title }}">	
 			{% endif %}
-		</section>
+			<h3 id="post-title">{{ page.title }}</h3>
+			<p id="subtitle">{{ page.subtitle }}</p>
+			<p id="date">{{ page.date | date: "%B %d %Y" }}</p>
+		</div>
+	</header>
+		
+	{% if page.intro %}
+	<section class="body intro">
+		<p>{{ page.intro }}</p>
+	</section>
+	{% endif %}
+
+	<section class="body">
+		{{ content }}
+		{% if page.comments %}
+		<div id="disqus_thread"></div>
+		<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><!-- 
+		<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a> -->
+		{% endif %}
+	</section>
 
 	</article>
 	
