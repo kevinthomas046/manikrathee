@@ -25,66 +25,67 @@
 			</a>
 		</section>
 	</header>
+
 	<article>
+		<header>
+			<!-- Data attr setup for Scott Jehl's Picturefill / https://github.com/scottjehl/picturefill/ -->
+			<div id="feature" data-picture data-alt="{% if page.featured-alt %}{{ page.featured-alt }}{else}blog- manikrathee{% endif %}">
+	      <div data-src="{{ page.featured-image-s }}"></div>
+	      <div data-src="{{ page.featured-image-m }}" data-media="(min-width: 400px)"></div>
+	      <div data-src="{{ page.featured-image-l }}" data-media="(min-width: 800px)"></div>
+	      <div data-src="{{ page.featured-image-x }}" data-media="(min-width: 1000px)"></div>
 
-	<header>
-		<!-- Data attr setup for Scott Jehl's Picturefill / https://github.com/scottjehl/picturefill/ -->
-		<div id="feature" data-picture data-alt="{% if page.featured-alt %}{{ page.featured-alt }}{else}blog- manikrathee{% endif %}">
-      <div data-src="{{ page.featured-image-s }}"></div>
-      <div data-src="{{ page.featured-image-m }}" data-media="(min-width: 400px)"></div>
-      <div data-src="{{ page.featured-image-l }}" data-media="(min-width: 800px)"></div>
-      <div data-src="{{ page.featured-image-x }}" data-media="(min-width: 1000px)"></div>
+	      <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+	      <noscript><img src="{{ page.featured-image-s }}" alt="{% if page.featured-alt %}{{ page.featured-alt }}{else}blog- manikrathee{% endif %}"></noscript>
+	    </div>
 
-      <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-      <noscript><img src="{{ page.featured-image-s }}" alt="{% if page.featured-alt %}{{ page.featured-alt }}{else}blog- manikrathee{% endif %}"></noscript>
-    </div>
-
-		<div id="post-title-container">
-			{% if page.title-before %}
-			<img id="post-title-logo" src="{{ page.title-before }}" alt="{{ page.title }}">	
-			{% endif %}
-			<h3 id="post-title">{{ page.title }}</h3>
-			<p id="subtitle">{{ page.subtitle }}</p>
-			<p id="date">{{ page.date | date: "%B %d %Y" }}</p>
-		</div>
-	</header>
+			<div id="post-title-container">
+				{% if page.title-before %}
+				<img id="post-title-logo" src="{{ page.title-before }}" alt="{{ page.title }}">	
+				{% endif %}
+				<h3 id="post-title">{{ page.title }}</h3>
+				<p id="subtitle">{{ page.subtitle }}</p>
+				<p id="date">{{ page.date | date: "%B %d %Y" }}</p>
+			</div>
+		</header>
 		
-	{% if page.intro %}
-	<section class="body intro">
-		<p>{{ page.intro }}</p>
-	</section>
-	{% endif %}
-
-	<section class="body">
-		{{ content }}
-	</section>
-	
-	<section class="body bare">
-				<div id="page-navigation"> 
-				        <div class="clear">&nbsp;</div> 
-				        <div class="left"> 
-				        {% if page.previous.url %} 
-				                <a href="{{page.previous.url}}" title="Previous Post: 
-				{{page.previous.title}}">&laquo; {{page.previous.title}}{{page.previous.subtitle}}</a> 
-				        {% endif %} 
-				        </div> 
-
-				        <div class="right"> 
-				        {% if page.next.url %} 
-				                <a href="{{page.next.url}}" title="next Post: 
-				{{page.next.title}}">{{page.next.title}} &raquo; </a> 
-				        {% endif %} 
-				        </div> 
-				        <div class="clear">&nbsp;</div> 
-				</div> 
-				
-				
-		{% if page.comments %}
-		<div id="disqus_thread"></div>
-		<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		{% if page.intro %}
+		<section class="body intro">
+			<p>{{ page.intro }}</p>
+		</section>
 		{% endif %}
-	</section>
 
+		<section class="body">
+			{{ content }}
+			<!-- Jekyll Reading Time via Andy Taylor // http://andytaylor.me/2013/04/07/reading-time/ -->
+			{{ page.content | number_of_words | append: '.0' | divided_by:180 | append: 'min' }}
+		</section>
+		
+		<section class="body bare">
+			{% if page.comments %}
+			<div id="disqus_thread"></div>
+			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			{% endif %}
+		</section>
+		
+		<section class="body bare">
+			<div id="page-navigation"> 
+			        <div class="clear">&nbsp;</div> 
+			        <div class="left"> 
+			        {% if page.previous.url %} 
+			                <a href="{{page.previous.url}}" title="Previous Post: 
+			{{page.previous.title}}">&laquo; {{page.previous.title}}{{page.previous.subtitle}}</a> 
+			        {% endif %} 
+			        </div> 
+
+			        <div class="right"> 
+			        {% if page.next.url %} 
+			                <a href="{{page.next.url}}" title="next Post: 
+			{{page.next.title}}">{{page.next.title}} &raquo; </a> 
+			        {% endif %} 
+			        </div> 
+			</div> 
+		</section>
 	</article>
 	
 	<footer>
@@ -92,12 +93,10 @@
 		{% include share.html %}
 		{% endif %}
 		<div class="container">
-			<a href="https://github.com/" class="ss-icon ss-social ss-social-circle" title="Github">Github</a>
+			<a href="https://github.com/" class="ss-icon ss-social-circle" title="Github">Github</a>
 		</div>
 	</footer>
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-	<script>!window.jQuery && document.write(unescape('%3Cscript src="http://assets.manikrathee.com/global/js/libs/jquery-1.7.1.min.js"%3E%3C/script%3E'))</script>
 	<script src="http://assets.manikrathee.com/global/js/scripts-ck.js"></script>
 	{% if page.script %}<script type="text/javascript" src="{{ page.script }}"></script>{% endif %}
 	{% if page.comments %}{% include comments.html %}{% endif %}
