@@ -30,13 +30,13 @@
 		<header>
 			<!-- Data attr setup for Scott Jehl's Picturefill / https://github.com/scottjehl/picturefill/ -->
 			<div id="feature" data-picture data-alt="{% if page.featured-alt %}{{ page.featured-alt }}{else}blog- manikrathee{% endif %}">
-	      <div data-src="{{ page.featured-image-s }}"></div>
-	      <div data-src="{{ page.featured-image-m }}" data-media="(min-width: 400px)"></div>
-	      <div data-src="{{ page.featured-image-l }}" data-media="(min-width: 800px)"></div>
-	      <div data-src="{{ page.featured-image-x }}" data-media="(min-width: 1000px)"></div>
+	      <div itemprop="image" data-src="{{ page.featured-image-s }}"></div>
+	      <div itemprop="image" data-src="{{ page.featured-image-m }}" data-media="(min-width: 400px)"></div>
+	      <div itemprop="image" data-src="{{ page.featured-image-l }}" data-media="(min-width: 800px)"></div>
+	      <div itemprop="image" data-src="{{ page.featured-image-x }}" data-media="(min-width: 1000px)"></div>
 
 	      <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-	      <noscript><img src="{{ page.featured-image-s }}" alt="{% if page.featured-alt %}{{ page.featured-alt }}{else}blog- manikrathee{% endif %}"></noscript>
+	      <noscript><img itemprop="image" src="{{ page.featured-image-s }}" alt="{% if page.featured-alt %}{{ page.featured-alt }}{else}blog- manikrathee{% endif %}"></noscript>
 	    </div>
 
 			<div id="post-title-container">
@@ -55,7 +55,7 @@
 		</section>
 		{% endif %}
 
-		<section class="body">
+		<section class="body itemscope">
 			{{ content }}
 			
 			<!-- Jekyll Reading Time via Andy Taylor // http://andytaylor.me/2013/04/07/reading-time/ -->
@@ -64,13 +64,13 @@
 		
 		<section class="body bare">
 			{% if page.comments %}
-			<div id="disqus_thread"></div>
+			<div id="disqus_thread" class="itemscope"></div>
 			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 			{% endif %}
 		</section>
 		
 		<section class="body bare">
-			<div id="page-navigation"> 
+			<div id="page-navigation" class="itemscope"> 
 			        <div class="clear">&nbsp;</div> 
 			        <div class="left"> 
 			        {% if page.previous.url %} 
@@ -89,11 +89,11 @@
 		</section>
 	</article>
 	
-	<footer>
+	<footer itemscope>
 		{% if page.share %}
 		{% include share.html %}
 		{% endif %}
-		<p><em>Set in <a href="" title="">chaparral</a> and <a href="" title="">ff meta</a>.</em></p>
+		<p><em>Set in <a href="https://typekit.com/fonts/garamond-premier-pro" title="Garamond Premier Pro on Typekit">Garamond Premier Pro</a> and <a href="https://typekit.com/fonts/ff-meta-web-pro" title="FF Meta Serif Web Pro on Typekit">FF Meta Serif Web Pro</a>.</em></p>
 		<div class="container">
 			<a href="https://github.com/manikrathee/Blog" class="ss-icon ss-social-circle" title="Github">Octocat</a>
 		</div>
