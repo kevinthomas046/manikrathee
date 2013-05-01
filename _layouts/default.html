@@ -71,12 +71,12 @@
 		</div> <!-- /container -->
 	</section>
 	
-	<section class="body bare">
+	<section id="next-previous-post" class="body bare">
 		<div id="page-navigation" class="body itemscope"> 
 			{% if page.next.url %} 
 			
 			Next post
-			<a href="{{page.next.url}}" title="next Post: {{page.next.title}}">{{page.next.title}}{{page.next.subtitle}}{{page.next.title}}{{ page.next.date | date: "%B %d %Y" }}&raquo;</a> 
+			<a href="{{page.next.url}}" title="next Post: {{page.next.title}}">{{page.next.title}}{{page.next.subtitle}}{{ page.next.date | date: "%B %d %Y" }}&raquo;</a> 
 			
 			{% elsif page.previous.url %} 
 			
