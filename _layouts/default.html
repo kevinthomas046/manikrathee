@@ -60,33 +60,33 @@
 		<section class="body itemscope">
 			{{ content }}
 		</section>
-		
-		<section class="body bare">
-			{% if page.comments %}
-			<div id="disqus_thread" class="itemscope"></div>
-			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-			{% endif %}
-		</section>
-		
-		<section class="body bare">
-			<div id="page-navigation" class="itemscope"> 
-			        <div class="clear">&nbsp;</div> 
-			        <div class="left"> 
-			        {% if page.previous.url %} 
-			                <a href="{{page.previous.url}}" title="Previous Post: 
-			{{page.previous.title}}">&laquo; {{page.previous.title}}{{page.previous.subtitle}}{{ page.date | date: "%B %d %Y" }}</a> 
-			        {% endif %} 
-			        </div> 
-
-			        <div class="right"> 
-			        {% if page.next.url %} 
-			                <a href="{{page.next.url}}" title="next Post: 
-			{{page.next.title}}">{{page.next.title}} &raquo; </a> 
-			        {% endif %} 
-			        </div> 
-			</div> 
-		</section>
 	</article>
+	
+	<section class="body bare itemscope">
+		{% if page.comments %}
+		<div id="disqus_thread"></div>
+		<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		{% endif %}
+	</section>
+	
+	<section class="body bare">
+		<div id="page-navigation" class="itemscope"> 
+		        <div class="clear">&nbsp;</div> 
+		        <div class="left"> 
+		        {% if page.previous.url %} 
+		                <a href="{{page.previous.url}}" title="Previous Post: 
+		{{page.previous.title}}">&laquo; {{page.previous.title}}{{page.previous.subtitle}}{{ page.date | date: "%B %d %Y" }}</a> 
+		        {% endif %} 
+		        </div> 
+
+		        <div class="right"> 
+		        {% if page.next.url %} 
+		                <a href="{{page.next.url}}" title="next Post: 
+		{{page.next.title}}">{{page.next.title}} &raquo; </a> 
+		        {% endif %} 
+		        </div> 
+		</div> 
+	</section>
 	
 	<footer itemscope>
 		{% if page.share %}
