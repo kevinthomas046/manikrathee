@@ -18,8 +18,8 @@
 </head>
 <body {% if page.body-class %}class="{{ page.body-class }}"{% endif %}>
 	<header id="page-header">
-		<section class="container">
-			<a id="header-link" href="http://blog.manikrathee.com" title="blog.manikrathee.com">
+		<section class="container" itemscope>
+			<a id="header-link" href="http://blog.manikrathee.com" title="blog.manikrathee.com"  itemprop="url">
 				<h1 id="logo">Blog.Manikrathee.com</h1>
 				<p id="back">Back to blog.manikrathee.com</p>
 			</a>
@@ -61,27 +61,30 @@
 			{{ content }}
 		</section>
 	</article>
-	
+
+	{% if page.comments %}
 	<section class="body bare itemscope">
 		<div class="container">
-			{% if page.comments %}
 			<div id="disqus_thread"></div>
 			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-			{% endif %}
 		</div> <!-- /container -->
 	</section>
+	{% endif %}
 	
 	<section id="next-previous-post" class="body bare">
 		<div id="page-navigation" class="body itemscope"> 
 			{% if page.next.url %} 
 			
 			Next post
-			<a href="{{page.next.url}}" title="next Post: {{page.next.title}}">{{page.next.title}}{{page.next.subtitle}}{{ page.next.date | date: "%B %d %Y" }}&raquo;</a> 
+			<a href="{{page.next.url}}" title="next Post: {{page.next.title}}" itemprop="url">
+				{{page.next.title}}
+				{{page.next.subtitle}}
+				{{ page.next.date | date: "%B %d %Y" }}&raquo;</a> 
 			
 			{% elsif page.previous.url %} 
 			
 			Previous post
-			<a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}{{page.previous.subtitle}}{{ page.previous.date | date: "%B %d %Y" }}</a> 
+			<a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}" itemprop="url">&laquo; {{page.previous.title}}{{page.previous.subtitle}}{{ page.previous.date | date: "%B %d %Y" }}</a> 
 			
 			{% endif %} 
 		</div> 
@@ -91,9 +94,9 @@
 		{% if page.share %}
 		{% include share.html %}
 		{% endif %}
-		<p><em>Set in <a href="https://typekit.com/fonts/garamond-premier-pro" title="Garamond Premier Pro on Typekit">Garamond Premier Pro</a> and <a href="https://typekit.com/fonts/ff-meta-web-pro" title="FF Meta Serif Web Pro on Typekit">FF Meta Serif Web Pro</a>.</em></p>
+		<p><em>Set in <a href="https://typekit.com/fonts/garamond-premier-pro" title="Garamond Premier Pro on Typekit" itemprop="url">Garamond Premier Pro</a> and <a href="https://typekit.com/fonts/ff-meta-web-pro" title="FF Meta Serif Web Pro on Typekit" itemprop="url">FF Meta Serif Web Pro</a>.</em></p>
 		<div class="container">
-			<a href="https://github.com/manikrathee/Blog" class="ss-icon ss-social-circle" title="Github">Octocat</a>
+			<a href="https://github.com/manikrathee/Blog" class="ss-icon ss-social-circle" title="Github" itemprop="url">Octocat</a>
 		</div>
 	</footer>
 
