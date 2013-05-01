@@ -75,16 +75,21 @@
 		<div id="page-navigation" class="body itemscope"> 
 			{% if page.next.url %} 
 			
-			Next post
+			<p class="pre-heading">Next Post</p>
 			<a href="{{page.next.url}}" title="next Post: {{page.next.title}}" itemprop="url">
-				{{page.next.title}}
-				{{page.next.subtitle}}
-				{{ page.next.date | date: "%B %d %Y" }}&raquo;</a> 
+				<h3>{{page.next.title}}</h3>
+				<p>{{page.next.subtitle}}</p>
+				<p class="date">{{ page.next.date | date: "%B %d %Y" }}</p>
+			</a> 
 			
 			{% elsif page.previous.url %} 
 			
-			Previous post
-			<a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}" itemprop="url">&laquo; {{page.previous.title}}{{page.previous.subtitle}}{{ page.previous.date | date: "%B %d %Y" }}</a> 
+			<p class="pre-heading">Previous Post</p>
+			<a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}" itemprop="url">
+				<h3>{{page.previous.title}}</h3>
+				<p>{{page.previous.subtitle}}</p>
+				<p class="date">{{ page.previous.date | date: "%B %d %Y" }}</p>
+			</a> 
 			
 			{% endif %} 
 		</div> 
