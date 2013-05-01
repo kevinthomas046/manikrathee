@@ -76,12 +76,12 @@
 			{% if page.next.url %} 
 			
 			Next post
-			<a href="{{page.next.url}}" title="next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a> 
+			<a href="{{page.next.url}}" title="next Post: {{page.next.title}}">{{page.next.title}}{{page.next.subtitle}}{{page.next.title}}{{ page.next.date | date: "%B %d %Y" }}&raquo;</a> 
 			
 			{% elsif page.previous.url %} 
 			
 			Previous post
-			<a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}{{page.previous.subtitle}}{{ page.date | date: "%B %d %Y" }}</a> 
+			<a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}{{page.previous.subtitle}}{{ page.previous.date | date: "%B %d %Y" }}</a> 
 			
 			{% endif %} 
 		</div> 
