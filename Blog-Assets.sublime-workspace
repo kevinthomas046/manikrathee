@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"disqus",
+				"disqus_thread"
+			],
+			[
 				"secondar",
 				"secondaryFilters"
 			],
@@ -60,10 +64,66 @@
 	"buffers":
 	[
 		{
+			"file": "_layouts/root.html",
+			"settings":
+			{
+				"buffer_size": 669,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/header.html",
+			"settings":
+			{
+				"buffer_size": 2728,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "_posts/2013-04-08-on-disconnecting.html",
 			"settings":
 			{
-				"buffer_size": 2174,
+				"buffer_size": 8034,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 479,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/css/import/ss-social-circle.less",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 973,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/libs/picturefill.js",
+			"settings":
+			{
+				"buffer_size": 2419,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/css/style.scss",
+			"settings":
+			{
+				"buffer_size": 10176,
 				"line_ending": "Unix"
 			}
 		}
@@ -71,7 +131,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 59.0,
+		"height": 37.0,
 		"selected_items":
 		[
 			[
@@ -100,6 +160,21 @@
 	},
 	"file_history":
 	[
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_layouts/default.html",
+		"/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/css/import/animation.scss",
+		"/Users/manikrathee/Dropbox/#Symlink/Frameworks/1140gs-Custom/css/import/animation.scss",
+		"/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/css/style.less",
+		"/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/css/style.scss",
+		"/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/libs/jquery-1.7.1.min.js",
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_includes/comments.html",
+		"/Users/manikrathee/Dropbox/#Symlink/#Assets/global/js/scripts.js",
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2012-09-28-brad-frost-future-friendly-web.html",
+		"/Users/manikrathee/Dropbox/#Symlink/#Assets/global/js/libs/fittext.js",
+		"/Users/manikrathee/Dropbox/#Symlink/#Assets/global/js/libs/lettering.js",
+		"/Users/manikrathee/Dropbox/#Symlink/Frameworks/1140gs-Custom/js/script.js",
+		"/Users/manikrathee/Dropbox/#Symlink/Frameworks/1140gs-Custom/index.html",
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_includes/share.html",
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2013-04-08-on-disconnecting.html",
 		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_config.yml",
 		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2012-07-01-vsco.html",
 		"/opt/fluence/fluenceapp/website/templates/guestlist.html",
@@ -212,22 +287,7 @@
 		"/Users/manikrathee/Dropbox/#Symlink/#Fluence/Alpha/App/htdocs/website/templates/base.html",
 		"/Users/manikrathee/Dropbox/#Symlink/#Fluence/Alpha/App/htdocs/website/templates/home.html",
 		"/Users/manikrathee/Dropbox/#Symlink/#Fluence/Alpha/App/htdocs/static/js/libs/river.js",
-		"/Users/manikrathee/.ssh/id_rsa",
-		"/Users/manikrathee/.ssh/github_rsa",
-		"/Users/manikrathee/.ssh/github_rsa.pub",
-		"/Users/manikrathee/Dropbox/#Symlink/Development/child-care-in-plano/README.md",
-		"/Users/manikrathee/Drive/#Fluence/Alpha/App/htdocs/static/css/import/color-mixin.scss",
-		"/Users/manikrathee/Drive/#Fluence/Alpha/App/htdocs/static/js/libs/alerts.js",
-		"/Users/manikrathee/Drive/#Fluence/Alpha/App/htdocs/static/js/libs/submit.js",
-		"/Users/manikrathee/Drive/#Fluence/Alpha/App/htdocs/static/css/import/color.scss",
-		"/Users/manikrathee/Drive/#Fluence/Alpha/App/htdocs/website/templates/base/footer.html",
-		"/Users/manikrathee/Drive/#Fluence/Alpha/App/htdocs/website/templates/base/header.html",
-		"/Users/manikrathee/Drive/#Fluence/Alpha/App/htdocs/static/css/style.scss",
-		"/Users/manikrathee/Drive/#Fluence/Alpha/App/htdocs/website/templates/artists.html",
-		"/Users/manikrathee/Drive/#Fluence/Alpha/App/htdocs/website/templates/settings.html",
-		"/Users/manikrathee/Drive/#Fluence/Alpha/App/htdocs/website/templates/profile.html",
-		"/Users/manikrathee/Drive/#Fluence/Alpha/App/htdocs/website/templates/onboard.html",
-		"/Users/manikrathee/Drive/#Fluence/Alpha/App/htdocs/website/templates/home.html"
+		"/Users/manikrathee/.ssh/id_rsa"
 	],
 	"find":
 	{
@@ -238,6 +298,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"/Users/manikrathee/Dropbox/#Symlink/Consulting/2013/Continu/app/continu-r1.0/app/views"
 		]
 	},
 	"find_state":
@@ -245,6 +306,25 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"fadeout",
+			"min-height",
+			"post-title-container",
+			"animated",
+			"animation",
+			"post-title",
+			"post-title'",
+			"post-title",
+			"background",
+			"body",
+			"20120928",
+			"letter-spac",
+			"post-title",
+			"chapa",
+			"fadeout",
+			"post-title",
+			"back",
+			"h3",
+			"calenda",
 			"p.artist",
 			"artist",
 			"fluence",
@@ -353,26 +433,7 @@
 			"placeholder",
 			"border-right",
 			"module",
-			"{\n",
-			"module",
-			"text-transform: lowercase;",
-			"bar",
-			"track.",
-			"title.",
-			"environment",
-			"newtrackty",
-			"current",
-			"embed",
-			"header",
-			"reviewe",
-			"reviewer",
-			"sidebar",
-			"prox",
-			"freight",
-			"list",
-			"\"selected\"",
-			"0.35",
-			"0,0,0,1"
+			"{\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -380,6 +441,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"animate",
+			"20130408",
 			"off-white",
 			"filter-menu-trigger",
 			"{{ user }}",
@@ -416,23 +479,80 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_posts/2013-04-08-on-disconnecting.html",
+					"file": "_layouts/root.html",
 					"settings":
 					{
-						"buffer_size": 2174,
+						"buffer_size": 669,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2131,
-								2131
+								357,
+								357
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_includes/header.html",
+					"settings":
+					{
+						"buffer_size": 2728,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1555,
+								1555
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_posts/2013-04-08-on-disconnecting.html",
+					"settings":
+					{
+						"buffer_size": 8034,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1680,
+								1680
 							]
 						],
 						"settings":
@@ -443,7 +563,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1608.0,
+						"translation.y": 984.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 479,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								253,
+								253
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -451,13 +599,118 @@
 			]
 		},
 		{
+			"selected": 3,
 			"sheets":
 			[
-			]
-		},
-		{
-			"sheets":
-			[
+				{
+					"buffer": 4,
+					"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/css/import/ss-social-circle.less",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Less/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/scripts.js",
+					"settings":
+					{
+						"buffer_size": 973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								973,
+								973
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/libs/picturefill.js",
+					"settings":
+					{
+						"buffer_size": 2419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2419,
+								2419
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/css/style.scss",
+					"settings":
+					{
+						"buffer_size": 10176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8225,
+								8225
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8606.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -484,19 +737,12 @@
 				0,
 				2,
 				1
-			],
-			[
-				2,
-				0,
-				3,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.30332531157,
-			0.660728236607,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -520,6 +766,30 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"anima",
+				"#Assets/Blog/_global/css/import/animation.scss"
+			],
+			[
+				"animat",
+				"#Assets/Blog/_global/css/import/animation.scss"
+			],
+			[
+				"style",
+				"#Assets/Blog/_global/css/style.scss"
+			],
+			[
+				"anim",
+				"#Assets/Blog/_global/css/import/animation.scss"
+			],
+			[
+				"jquery",
+				"#Assets/Blog/_global/js/libs/jquery-1.7.1.min.js"
+			],
+			[
+				"picture",
+				"#Assets/Blog/_global/js/libs/picturefill.js"
+			],
 			[
 				"vsco",
 				"#Blog/_posts/2012-07-01-vsco.html"
@@ -593,10 +863,6 @@
 				"settings.py"
 			],
 			[
-				"animat",
-				"static/css/import/animation.scss"
-			],
-			[
 				"small-",
 				"static/css/styles/small-screen.scss"
 			],
@@ -611,10 +877,6 @@
 			[
 				"base",
 				"css/styles/base.less"
-			],
-			[
-				"style",
-				"css/style.less"
 			],
 			[
 				"instag",
@@ -649,10 +911,6 @@
 				"js/script.js"
 			],
 			[
-				"anim",
-				"css/import/animation.less"
-			],
-			[
 				"header",
 				"global/header.php"
 			],
@@ -670,10 +928,6 @@
 			],
 			[
 				"animate",
-				"css/import/animation.less"
-			],
-			[
-				"anima",
 				"css/import/animation.less"
 			],
 			[
@@ -742,7 +996,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 215.0,
+	"side_bar_visible": false,
+	"side_bar_width": 218.0,
 	"status_bar_visible": true
 }
