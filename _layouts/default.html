@@ -63,7 +63,7 @@
 	</article>
 
 	{% if page.comments %}
-	<section class="body bare itemscope">
+	<section class="body bare" itemscope>
 		<div class="container">
 			<div id="disqus_thread"></div>
 			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
@@ -72,7 +72,7 @@
 	{% endif %}
 	
 	<section id="next-previous-post" class="body bare">
-		<div id="page-navigation" class="body itemscope"> 
+		<div id="page-navigation" class="body" itemscope> 
 			{% if page.next.url %} 
 			
 			<p class="pre-heading">Next Post</p>
@@ -81,6 +81,9 @@
 				<p>{{page.next.subtitle}}</p>
 				<p class="date">{{ page.next.date | date: "%B %d %Y" }}</p>
 			</a> 
+			
+			{% elsif !page.next.url %} 
+			<p class="pre-heading">Next Post: None / This is the most recent post.</p>
 			
 			{% elsif page.previous.url %} 
 			
@@ -95,11 +98,22 @@
 		</div> 
 	</section>
 	
+	
+	<section id="profile" class="body bare">
+		<div class="body" itemscope> 
+			<img src="http://assets.manikrathee.com/blog/_global/images/blog-profile@2x.png" alt="Manik Rathee">
+			<div class="copy">
+				<h4>About <a href="http://www.manikrathee.com" title="ManikRathee.com" itemprop="url">Manik Rathee</a></h4>
+				<p>I'm a user experience engineer, user interface designer and frontend developer. Formerly a UX Engineer for <a href="http://www.barackobama.com" title="Barack Obama" itemprop="url">President Barack Obama</a>, I am now the Lead Designer for <a href="http://www.fluence.com" title="Fluence" itemprop="url">Fluence</a>, a startup in beautiful San Francisco.</p>
+
+				{% include share.html %}
+
+			</div> <!-- /copy -->
+		</div> 
+	</section>
+	
 	<footer itemscope>
-		{% if page.share %}
-		{% include share.html %}
-		{% endif %}
-		<p><em>Set in <a href="https://typekit.com/fonts/garamond-premier-pro" title="Garamond Premier Pro on Typekit" itemprop="url">Garamond Premier Pro</a> and <a href="https://typekit.com/fonts/ff-meta-web-pro" title="FF Meta Serif Web Pro on Typekit" itemprop="url">FF Meta Serif Web Pro</a>.</em></p>
+		<p>Set in <a href="https://typekit.com/fonts/garamond-premier-pro" title="Garamond Premier Pro on Typekit" itemprop="url">Garamond Premier Pro</a> and <a href="https://typekit.com/fonts/ff-meta-web-pro" title="FF Meta Serif Web Pro on Typekit" itemprop="url">FF Meta Serif Web Pro</a>.</p>
 		<div class="container">
 			<a href="https://github.com/manikrathee/Blog" class="ss-icon ss-social-circle" title="Github" itemprop="url">Octocat</a>
 		</div>
