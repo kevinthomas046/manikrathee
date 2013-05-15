@@ -44,15 +44,23 @@
 	
 	
 	<style type="text/css">
-		#body:hover a, .body:hover a, footer:hover a{
-			color: #999;
-		}
-		#body:hover a:hover, .body:hover a:hover, footer:hover a:hover{
-			color: #000;
-		}
 		#post-title{
 			font-size: 55px;
 		}
+		#body a, .body a, footer a{
+		  color: #999;
+		}
+  	@media (min-width: 768px) {
+			#body a, .body a, footer a{
+			  color: #000;
+			}
+			#body:hover a, .body:hover a, footer:hover a{
+				color: #999;
+			}
+			#body:hover a:hover, .body:hover a:hover, footer:hover a:hover{
+				color: #000;
+			}
+  	}
 	</style>
 	
 </head>

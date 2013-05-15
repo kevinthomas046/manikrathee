@@ -4,15 +4,23 @@
 	{% endif %}
 	{% if page.link-color %}
 	<style type="text/css">
-		#body:hover a, .body:hover a, footer:hover a{
-			color: #{{ page.link-color }};
-		}
-		#body:hover a:hover, .body:hover a:hover, footer:hover a:hover{
-			color: #{{ page.link-color-hover }};
-		}
 		#post-title{
 			font-size: {{ page.title-size }};
 		}
+		#body a, .body a, footer a{
+		  color: #{{ page.link-color }};
+		}
+  	@media (min-width: 768px) {
+			#body a, .body a, footer a{
+			  color: #000;
+			}
+			#body:hover a, .body:hover a, footer:hover a{
+				color: #{{ page.link-color }};
+			}
+			#body:hover a:hover, .body:hover a:hover, footer:hover a:hover{
+				color: #{{ page.link-color-hover }};
+			}
+  	}
 	</style>
 	{% endif %}
 </head>
