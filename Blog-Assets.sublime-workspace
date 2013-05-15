@@ -96,6 +96,14 @@
 			}
 		},
 		{
+			"file": "_posts/2013-02-17-quality-in-minimum-viable-products.html",
+			"settings":
+			{
+				"buffer_size": 6971,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/css/import/ss-social-circle.less",
 			"settings":
 			{
@@ -479,7 +487,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -551,8 +559,8 @@
 						"selection":
 						[
 							[
-								1680,
-								1680
+								78,
+								114
 							]
 						],
 						"settings":
@@ -563,7 +571,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 984.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -595,6 +603,35 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_posts/2013-02-17-quality-in-minimum-viable-products.html",
+					"settings":
+					{
+						"buffer_size": 6971,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1605,
+								1605
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 936.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		},
@@ -603,7 +640,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/css/import/ss-social-circle.less",
 					"settings":
 					{
@@ -631,7 +668,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/scripts.js",
 					"settings":
 					{
@@ -657,7 +694,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/libs/picturefill.js",
 					"settings":
 					{
@@ -684,7 +721,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/css/style.scss",
 					"settings":
 					{
@@ -766,6 +803,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"qualty",
+				"#Blog/_posts/2013-02-17-quality-in-minimum-viable-products.html"
+			],
 			[
 				"anima",
 				"#Assets/Blog/_global/css/import/animation.scss"
