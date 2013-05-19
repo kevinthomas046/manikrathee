@@ -72,6 +72,14 @@
 			}
 		},
 		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 6037,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "_includes/header.html",
 			"settings":
 			{
@@ -83,31 +91,7 @@
 			"file": "_posts/2013-04-08-on-disconnecting.html",
 			"settings":
 			{
-				"buffer_size": 8034,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 479,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_posts/2013-02-17-quality-in-minimum-viable-products.html",
-			"settings":
-			{
-				"buffer_size": 6971,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/css/import/ss-social-circle.less",
-			"settings":
-			{
-				"buffer_size": 0,
+				"buffer_size": 8187,
 				"line_ending": "Unix"
 			}
 		},
@@ -120,18 +104,26 @@
 			}
 		},
 		{
-			"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/libs/picturefill.js",
+			"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/css/style.scss",
 			"settings":
 			{
-				"buffer_size": 2419,
+				"buffer_size": 10433,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/css/style.scss",
+			"file": "_templates/date - title.html",
 			"settings":
 			{
-				"buffer_size": 10176,
+				"buffer_size": 5582,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "readme.md",
+			"settings":
+			{
+				"buffer_size": 686,
 				"line_ending": "Unix"
 			}
 		}
@@ -168,6 +160,14 @@
 	},
 	"file_history":
 	[
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2012-11-16-the-tech-president.html",
+		"/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/libs/picturefill.js",
+		"/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/css/import/ss-social-circle.less",
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/index.html",
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2012-01-30-windy-city.html",
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_site/posts/2012/01/30/windy-city.html",
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_config.yml",
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2013-02-17-quality-in-minimum-viable-products.html",
 		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_layouts/default.html",
 		"/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/css/import/animation.scss",
 		"/Users/manikrathee/Dropbox/#Symlink/Frameworks/1140gs-Custom/css/import/animation.scss",
@@ -183,7 +183,6 @@
 		"/Users/manikrathee/Dropbox/#Symlink/Frameworks/1140gs-Custom/index.html",
 		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_includes/share.html",
 		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2013-04-08-on-disconnecting.html",
-		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_config.yml",
 		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2012-07-01-vsco.html",
 		"/opt/fluence/fluenceapp/website/templates/guestlist.html",
 		"/opt/fluence/fluenceapp/website/templates/base/intro-tutorial.html",
@@ -288,14 +287,7 @@
 		"/Users/manikrathee/Dropbox/#Symlink/#Fluence/Alpha/Landing/htdocs/js/libs/ss-social.js",
 		"/Users/manikrathee/Dropbox/#Symlink/Development/child-care-in-plano/index.html",
 		"/Users/manikrathee/Dropbox/#Symlink/Development/child-care-in-plano/css/styles/small-desktop.less",
-		"/Users/manikrathee/Dropbox/#Symlink/Development/child-care-in-plano/css/style.less",
-		"/Users/manikrathee/Dropbox/#Symlink/Development/child-care-in-plano/css/import/animation.less",
-		"/Users/manikrathee/Dropbox/#Symlink/Development/child-care-in-plano/css/styles/base.less",
-		"/Users/manikrathee/Dropbox/#Symlink/#Fluence/Alpha/App/htdocs/website/templates/base-loggedin.html",
-		"/Users/manikrathee/Dropbox/#Symlink/#Fluence/Alpha/App/htdocs/website/templates/base.html",
-		"/Users/manikrathee/Dropbox/#Symlink/#Fluence/Alpha/App/htdocs/website/templates/home.html",
-		"/Users/manikrathee/Dropbox/#Symlink/#Fluence/Alpha/App/htdocs/static/js/libs/river.js",
-		"/Users/manikrathee/.ssh/id_rsa"
+		"/Users/manikrathee/Dropbox/#Symlink/Development/child-care-in-plano/css/style.less"
 	],
 	"find":
 	{
@@ -314,6 +306,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"margin-top",
+			"body",
+			"nex",
+			"next-",
+			"footer",
+			"proxima",
+			"header",
+			"social",
+			"profile",
+			"next",
+			"next-pre",
 			"fadeout",
 			"min-height",
 			"post-title-container",
@@ -430,18 +433,7 @@
 			"application",
 			"priv",
 			"priviledge",
-			"privilege",
-			"console",
-			"#hardware",
-			"resource-block",
-			"<p class=\"heading\">",
-			"font-size: 14px;",
-			".bokeh",
-			".demo-3 ",
-			"placeholder",
-			"border-right",
-			"module",
-			"{\n"
+			"privilege"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -487,7 +479,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -520,6 +512,34 @@
 				},
 				{
 					"buffer": 1,
+					"file": "_layouts/default.html",
+					"settings":
+					{
+						"buffer_size": 6037,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								254,
+								254
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3133.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "_includes/header.html",
 					"settings":
 					{
@@ -548,19 +568,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "_posts/2013-04-08-on-disconnecting.html",
 					"settings":
 					{
-						"buffer_size": 8034,
+						"buffer_size": 8187,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								78,
-								114
+								806,
+								806
 							]
 						],
 						"settings":
@@ -572,63 +592,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 479,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								253,
-								253
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "_posts/2013-02-17-quality-in-minimum-viable-products.html",
-					"settings":
-					{
-						"buffer_size": 6971,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1605,
-								1605
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 936.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -640,35 +603,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 5,
-					"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/css/import/ss-social-circle.less",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Less/LESS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
+					"buffer": 4,
 					"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/scripts.js",
 					"settings":
 					{
@@ -694,46 +629,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/libs/picturefill.js",
-					"settings":
-					{
-						"buffer_size": 2419,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2419,
-								2419
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
+					"buffer": 5,
 					"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/css/style.scss",
 					"settings":
 					{
-						"buffer_size": 10176,
+						"buffer_size": 10433,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8225,
-								8225
+								3452,
+								3452
 							]
 						],
 						"settings":
@@ -743,7 +651,61 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8606.0,
+						"translation.y": 3238.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "_templates/date - title.html",
+					"settings":
+					{
+						"buffer_size": 5582,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								935,
+								935
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 308.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "readme.md",
+					"settings":
+					{
+						"buffer_size": 686,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								605,
+								605
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -803,6 +765,34 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"readme",
+				"#Blog/readme.md"
+			],
+			[
+				"tech",
+				"#Blog/_posts/2012-11-16-the-tech-president.html"
+			],
+			[
+				"template",
+				"#Blog/_templates/date - title.html"
+			],
+			[
+				"windt",
+				"#Blog/_posts/2012-01-30-windy-city.html"
+			],
+			[
+				"windy",
+				"#Blog/_site/posts/2012/01/30/windy-city.html"
+			],
+			[
+				"index",
+				"#Blog/index.html"
+			],
+			[
+				"config",
+				"#Blog/_config.yml"
+			],
 			[
 				"qualty",
 				"#Blog/_posts/2013-02-17-quality-in-minimum-viable-products.html"
