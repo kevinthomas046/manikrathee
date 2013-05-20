@@ -56,6 +56,9 @@
 				<!-- <p id="date">{{ page.date | date: "%B %d %Y" }}</p> -->
 				<!-- Jekyll Reading Time via Andy Taylor // http://andytaylor.me/2013/04/07/reading-time/ -->
 				<p id="reading-time">Reading Time: <span class="time">{{ page.content | number_of_words | append: '.0' | divided_by:140 | append: 'min' }}</span> minutes</p>
+				{% if page.medium %}
+				<p id="orignally-posted">{{ page.medium }}</p>
+				{% endif %}
 			</div>
 		</header>
 		
