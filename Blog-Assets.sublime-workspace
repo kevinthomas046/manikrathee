@@ -91,7 +91,7 @@
 			"file": "_posts/2013-05-29-building-obama.html",
 			"settings":
 			{
-				"buffer_size": 4503,
+				"buffer_size": 4376,
 				"line_ending": "Unix"
 			}
 		},
@@ -564,15 +564,15 @@
 					"file": "_posts/2013-05-29-building-obama.html",
 					"settings":
 					{
-						"buffer_size": 4503,
+						"buffer_size": 4376,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3605,
-								3605
+								2169,
+								2169
 							]
 						],
 						"settings":
@@ -583,7 +583,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2493.0,
+						"translation.y": 1882.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
