@@ -3,7 +3,7 @@
 	<link rel="stylesheet" href="{{ page.stylesheet }}" type="text/css" media="screen" />
 	{% endif %}
 	{% if page.code %}
-	<link rel="stylesheet" href="" type="text/css" media="screen" />
+	<link rel="stylesheet" href="http://assets.manikrathee.com/blog/_global/css/code-highlighting-tomorrow-night-eighties.css" type="text/css" media="screen" />
 	{% endif %}
 	{% if page.link-color %}
 	<style type="text/css">
@@ -160,7 +160,7 @@
 		{% endif %}
 		{% if page.code %}
 			$(document).ready(function() {
-				hljs.initHighlightingOnLoad();
+				$('pre code').each(function(i, e) {highlightBlock(e)});
 			});
 		{% endif %}
 	</script>
