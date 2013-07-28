@@ -514,8 +514,8 @@
 						"selection":
 						[
 							[
-								2408,
-								2420
+								5867,
+								5867
 							]
 						],
 						"settings":
@@ -525,7 +525,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1219.0,
+						"translation.y": 1089.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -583,7 +583,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1882.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -615,7 +615,7 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 858.0,
+						"translation.y": 792.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
