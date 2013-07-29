@@ -75,7 +75,7 @@
 			"file": "_layouts/default.html",
 			"settings":
 			{
-				"buffer_size": 6177,
+				"buffer_size": 6470,
 				"line_ending": "Unix"
 			}
 		},
@@ -88,26 +88,10 @@
 			}
 		},
 		{
-			"file": "_posts/2013-05-29-building-obama.html",
+			"file": "_posts/2013-07-27-sublime-text.html",
 			"settings":
 			{
-				"buffer_size": 4376,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/scripts.js",
-			"settings":
-			{
-				"buffer_size": 973,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_templates/date - title.html",
-			"settings":
-			{
-				"buffer_size": 5582,
+				"buffer_size": 6434,
 				"line_ending": "Unix"
 			}
 		},
@@ -116,6 +100,38 @@
 			"settings":
 			{
 				"buffer_size": 686,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 948,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/libs/highlight.js",
+			"settings":
+			{
+				"buffer_size": 18404,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/lazyload.js",
+			"settings":
+			{
+				"buffer_size": 8248,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/libs/lazyload.js",
+			"settings":
+			{
+				"buffer_size": 8248,
 				"line_ending": "Unix"
 			}
 		}
@@ -152,21 +168,28 @@
 	},
 	"file_history":
 	[
-		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2013-04-08-on-disconnecting.html",
-		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2012-09-28-brad-frost-future-friendly-web.html",
-		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2012-09-15-iphone-5.html",
-		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2012-08-18-rework-redesign-rebuild.html",
-		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2012-07-01-vsco.html",
-		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2012-06-24-pride.html",
-		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2012-01-31-interaction-and-innovation.html",
-		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2012-01-30-windy-city.html",
-		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2011-12-12-changes-obama-for-america.html",
-		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2011-11-23-experiments.html",
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_templates/date - title.html",
+		"/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/libs/lettering.js",
+		"/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/libs/lazyload.js",
+		"/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/libs/fittext.js",
+		"/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/libs/picturefill.js",
 		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2013-02-17-quality-in-minimum-viable-products.html",
 		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2012-11-16-the-tech-president.html",
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2011-11-23-experiments.html",
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2012-09-28-brad-frost-future-friendly-web.html",
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2011-12-12-changes-obama-for-america.html",
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2012-01-30-windy-city.html",
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2012-01-31-interaction-and-innovation.html",
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2012-07-01-vsco.html",
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2012-08-18-rework-redesign-rebuild.html",
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2012-09-15-iphone-5.html",
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2013-04-08-on-disconnecting.html",
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2013-05-29-building-obama.html",
+		"/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/lettering.js",
+		"/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/scripts.js",
+		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_posts/2012-06-24-pride.html",
 		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_includes/share.html",
 		"/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/css/style.scss",
-		"/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/libs/picturefill.js",
 		"/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/css/import/ss-social-circle.less",
 		"/Users/manikrathee/Dropbox/#Symlink/#Blog/index.html",
 		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_site/posts/2012/01/30/windy-city.html",
@@ -259,7 +282,6 @@
 		"/Users/manikrathee/Dropbox/#Symlink/#ManikRathee/v5/#HTDOCS/css/style.less",
 		"/Users/manikrathee/Dropbox/#Symlink/Frameworks/1140gs-Custom/css/import/typography.less",
 		"/Users/manikrathee/Dropbox/#Symlink/Frameworks/1140gs-Custom/css/import/core.less",
-		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_templates/date - title.html",
 		"/Users/manikrathee/Dropbox/#Symlink/#Blog/_site/index.html",
 		"/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/css/import/animate.less",
 		"/Users/manikrathee/Dropbox/#Symlink/Frameworks/1140gs-Custom/.git/MERGE_MSG",
@@ -273,13 +295,7 @@
 		"/Users/manikrathee/Dropbox/#Symlink/RevSystems/medartz/htdocs/css/ss-social.css",
 		"/Users/manikrathee/Dropbox/#Symlink/RevSystems/medartz/htdocs/css/ss-standard.css",
 		"/Users/manikrathee/Dropbox/#Symlink/RevSystems/medartz/htdocs/js/script.js",
-		"/Users/manikrathee/Dropbox/#Symlink/RevSystems/medartz/htdocs/js/libs/ss-standard.js",
-		"/Users/manikrathee/Dropbox/#Symlink/#Fluence/Alpha/Landing/htdocs/submit.php",
-		"/Users/manikrathee/Dropbox/#Symlink/#Fluence/Alpha/Landing/htdocs/js/libs/ketchup.js",
-		"/Users/manikrathee/Dropbox/#Symlink/#Fluence/Alpha/App/htdocs/static/js/script.js",
-		"/Users/manikrathee/Dropbox/#Symlink/#Fluence/Alpha/Landing/htdocs/js/script.js",
-		"/Users/manikrathee/Dropbox/#Symlink/#Fluence/Alpha/Landing/htdocs-scrapped/index.html",
-		"/Users/manikrathee/Dropbox/#Symlink/#Fluence/Alpha/Landing/htdocs/css/import/animation.less"
+		"/Users/manikrathee/Dropbox/#Symlink/RevSystems/medartz/htdocs/js/libs/ss-standard.js"
 	],
 	"find":
 	{
@@ -290,6 +306,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"",
 			"/Users/manikrathee/Dropbox/#Symlink/Consulting/2013/Continu/app/continu-r1.0/app/views"
 		]
 	},
@@ -298,6 +315,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hljs",
+			"#fittext: 1",
 			"profile",
 			"post-title-container",
 			"margin-top",
@@ -423,9 +442,7 @@
 			"source",
 			"title",
 			"github",
-			"margin-top: -24",
-			"application",
-			"priv"
+			"margin-top: -24"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -433,6 +450,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			" ",
 			"animate",
 			"20130408",
 			"off-white",
@@ -486,8 +504,8 @@
 						"selection":
 						[
 							[
-								357,
-								357
+								25,
+								25
 							]
 						],
 						"settings":
@@ -507,15 +525,15 @@
 					"file": "_layouts/default.html",
 					"settings":
 					{
-						"buffer_size": 6177,
+						"buffer_size": 6470,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5867,
-								5867
+								295,
+								295
 							]
 						],
 						"settings":
@@ -525,7 +543,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1089.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -554,36 +572,36 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 939.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "_posts/2013-05-29-building-obama.html",
+					"file": "_posts/2013-07-27-sublime-text.html",
 					"settings":
 					{
-						"buffer_size": 4376,
+						"buffer_size": 6434,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2169,
-								2169
+								4481,
+								4482
 							]
 						],
 						"settings":
 						{
 							"is_xml": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2735.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -591,64 +609,11 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 4,
-					"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/scripts.js",
-					"settings":
-					{
-						"buffer_size": 973,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								973,
-								973
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 792.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "_templates/date - title.html",
-					"settings":
-					{
-						"buffer_size": 5582,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								935,
-								935
-							]
-						],
-						"settings":
-						{
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 308.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "readme.md",
 					"settings":
 					{
@@ -670,6 +635,116 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/scripts.js",
+					"settings":
+					{
+						"buffer_size": 948,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								176,
+								176
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/libs/highlight.js",
+					"settings":
+					{
+						"buffer_size": 18404,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4974,
+								4978
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/lazyload.js",
+					"settings":
+					{
+						"buffer_size": 8248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8248,
+								8248
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4978.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/manikrathee/Dropbox/#Symlink/#Assets/Blog/_global/js/libs/lazyload.js",
+					"settings":
+					{
+						"buffer_size": 8248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8248,
+								8248
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4978.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -705,7 +780,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.534969075521,
 			1.0
 		],
 		"rows":
@@ -729,6 +804,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"lazyload",
+				"#Assets/Blog/_global/js/lazyload.js"
+			],
 			[
 				"share",
 				"#Blog/_includes/share.html"
